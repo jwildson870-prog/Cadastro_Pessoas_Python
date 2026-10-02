@@ -1,0 +1,20 @@
+[
+    {
+        "id": "089c4710",
+        "nome": "José",
+        "idade": 18,
+        "data_cadastro": "02/10/2026 04:06"
+    },
+    {
+        "id": "5e2e4634",
+        "nome": "João",
+        "idade": 20,
+        "data_cadastro": "02/10/2026 04:07"
+    },
+    {
+        "id": "79d20a93",
+        "nome": "Rafael",
+        "idade": 26,
+        "data_cadastro": "02/10/2026 04:07"
+    }
+]
