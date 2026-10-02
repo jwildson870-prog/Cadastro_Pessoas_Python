@@ -1,10 +1,33 @@
-🐍 Cadastro Pessoas Python
+# 🐍 Cadastro Pessoas Python
 
-📋 Sobre o Projeto
+## 📋 Sobre o Projeto
 
-Sistema de cadastro de pessoas desenvolvido em Python, utilizando Programação Orientada a Objetos (POO), JSON, validações, backup e sistema de logs.
+Sistema de cadastro de pessoas desenvolvido em **Python**, utilizando **Programação Orientada a Objetos (POO)**, JSON, validações, backup e sistema de logs.
 
-⚙️ Funcionalidades
+O projeto foi desenvolvido com foco em aprendizado, organização de código e aplicação de conceitos de Python em um sistema funcional.
+
+## 🎥 Demonstração
+
+### Sistema em funcionamento
+
+Demonstração do sistema de cadastro de pessoas funcionando através do terminal.
+
+```text
+╔══════════════════════════╗
+║     SISTEMA DE PESSOAS   ║
+╠══════════════════════════╣
+║ 1 - Cadastrar            ║
+║ 2 - Listar               ║
+║ 3 - Buscar               ║
+║ 4 - Editar               ║
+║ 5 - Excluir              ║
+║ 6 - Sair                 ║
+╚══════════════════════════╝
+```
+
+> 📌 Uma demonstração em vídeo ou GIF pode ser adicionada posteriormente.
+
+## ⚙️ Funcionalidades
 
 - 👤 Cadastro de pessoas
 - 📋 Listagem de pessoas
@@ -18,8 +41,9 @@ Sistema de cadastro de pessoas desenvolvido em Python, utilizando Programação 
 - ✅ Validação dos dados
 - 🧩 Código dividido em módulos
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
+```text
 Cadastro_Pessoas_Python/
 │
 ├── main.py
@@ -33,20 +57,21 @@ Cadastro_Pessoas_Python/
 ├── sistema.log
 │
 └── README.md
+```
 
-🧩 Organização dos Arquivos
+## 🧩 Organização dos Arquivos
 
-"main.py"
+### `main.py`
 
-Arquivo principal responsável pelo menu e execução do sistema.
+Arquivo principal responsável pelo menu e pela execução do sistema.
 
-"pessoa.py"
+### `pessoa.py`
 
-Contém a classe "Pessoa" e a estrutura dos dados de cada pessoa.
+Contém a classe `Pessoa` e a estrutura dos dados de cada pessoa.
 
-"cadastro.py"
+### `cadastro.py`
 
-Responsável pelas operações de cadastro:
+Responsável pelas operações de:
 
 - Cadastrar
 - Listar
@@ -54,84 +79,95 @@ Responsável pelas operações de cadastro:
 - Editar
 - Excluir
 
-"banco.py"
+### `banco.py`
 
-Responsável pelo armazenamento dos dados:
+Responsável pelo armazenamento e gerenciamento dos dados:
 
-- Carregar JSON
-- Salvar JSON
+- Carregar dados
+- Salvar dados
 - Criar backup
 - Gerar IDs únicos
 
-"validacoes.py"
+### `validacoes.py`
 
-Contém as funções responsáveis pela validação dos dados informados pelo usuário.
+Contém funções reutilizáveis responsáveis pela validação dos dados informados pelo usuário.
 
-💾 Armazenamento de Dados
+## 💾 Armazenamento de Dados
 
-"pessoas.json"
+### `pessoas.json`
 
 Armazena os dados atuais das pessoas cadastradas.
 
-"pessoas_backup.json"
+### `pessoas_backup.json`
 
 Armazena uma cópia anterior dos dados.
 
-"sistema.log"
+### `sistema.log`
 
-Registra as operações e acontecimentos do sistema.
+Registra operações e acontecimentos importantes do sistema.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-#Linguagem
+### Linguagem
 
-#- 🐍 Python 3
+- 🐍 Python 3
 
-##Conceitos
+### Bibliotecas
+
+- `json`
+- `os`
+- `uuid`
+- `logging`
+- `shutil`
+- `datetime`
+
+### Conceitos
 
 - Programação Orientada a Objetos
 - Classes e objetos
+- Métodos
 - Funções
 - Modularização
 - Validação de dados
 - Persistência de dados
+- Manipulação de arquivos
+- Geração de IDs
+- Sistema de logs
+- Backup
 
-##Bibliotecas
-
-- "json"
-- "os"
-- "uuid"
-- "logging"
-- "shutil"
-- "datetime"
-
-##Ferramentas
+### Ferramentas
 
 - Git
 - GitHub
 - Termux
 
-##▶️ Como Executar
+## ▶️ Como Executar
 
-##1. Clone o repositório
+### 1. Clone o repositório
 
+```bash
 git clone https://github.com/jwildson870-prog/Cadastro_Pessoas_Python.git
+```
 
-$$2. Entre na pasta
+### 2. Entre na pasta
 
+```bash
 cd Cadastro_Pessoas_Python
+```
 
-##3. Execute o sistema
+### 3. Execute o sistema
 
+```bash
 python main.py
+```
 
-#🎯 Objetivo
+## 🎯 Objetivo
 
-##Objetivo Principal
+### Objetivo Principal
 
-Praticar Python através do desenvolvimento de um sistema real de cadastro.
+Praticar Python através do desenvolvimento de um sistema real de cadastro de pessoas.
 
-##Conceitos Praticados
+### Conceitos Praticados
 
 - Classes
 - Objetos
@@ -142,13 +178,20 @@ Praticar Python através do desenvolvimento de um sistema real de cadastro.
 - Logs
 - Backup
 - Validação
-- Git e GitHub
+- Git
+- GitHub
 
-#👨‍💻 Autor
+## 📚 Aprendizados
 
-##José Wildson
+Durante o desenvolvimento deste projeto, foram praticados conceitos importantes para a construção de aplicações Python organizadas e reutilizáveis.
 
-##GitHub: "@jwildson870-prog" (https://github.com/jwildson870-prog)
+O projeto também serve como base para futuras implementações, como banco de dados SQLite, autenticação de usuários, interface gráfica e novas funcionalidades.
+
+## 👨‍💻 Autor
+
+### José Wildson
+
+GitHub: [@jwildson870-prog](https://github.com/jwildson870-prog)
 
 ---
 
